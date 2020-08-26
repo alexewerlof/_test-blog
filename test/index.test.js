@@ -28,3 +28,12 @@ describe('shapeArea()', () => {
         assert.equal(shapeArea({ type: 'circle', r: 5 }), Math.PI * 25)
     })
 })
+
+describe('sumShapeAreas()', () => {
+    it('calculates the sum of the areas of all the shapes in the array', () => {
+        assert.equal(sumShapeAreas([
+            { type: 'square', a: 7 },
+            { type: 'circle', r: 13 },
+        ]), 49 + Math.PI * 169)
+    })
+})
