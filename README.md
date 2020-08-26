@@ -1,1 +1,1 @@
-This is a demo for the blog post about using `_test`.
+This is a demo for [my blog post about using `_test`](https://medium.com/@alexewerlof/the-test-convention-e3b76f7f49b4).
