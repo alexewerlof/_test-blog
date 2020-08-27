@@ -1,1 +1,1 @@
-export { sumShapeAreas } from './shape-areas.js'
+export * from './shape-areas.js'
