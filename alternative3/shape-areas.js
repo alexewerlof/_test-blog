@@ -1,13 +1,13 @@
-function squareArea(a) {
+export function squareArea(a) {
   return a * a;
 }
 
-function circleArea(r) {
+export function circleArea(r) {
   // πr2
   return Math.PI * r ** 2;
 }
 
-function shapeArea(shape) {
+export function shapeArea(shape) {
   switch (shape.type) {
     case "square":
       return squareArea(shape.a);
@@ -21,6 +21,3 @@ function shapeArea(shape) {
 export function sumShapeAreas(shapeArr) {
   return shapeArr.reduce((totalArea, shape) => totalArea + shapeArea(shape), 0);
 }
-
-// Notice that all "private" functions are exported here for testing
-export const _test = { squareArea, circleArea, shapeArea };
