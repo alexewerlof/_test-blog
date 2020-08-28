@@ -1,11 +1,11 @@
 {
-  "name": "_test-blog",
+  "name": "demo_test-blog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive '**/*.test.js'"
   },
   "keywords": [],
   "author": "",
